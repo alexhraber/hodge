@@ -4,10 +4,10 @@ The unresolved general question is universal algebraic detection (equivalently, 
 
 ## P0 — establish reproducible geometric certificates
 
-1. Reproduce the published sextic 1,001 + 720 + 30 basis using explicit cycle equations and exact intersection or period computations. Preserve cycle ideals, codimensions, smoothness/singularity hypotheses, pushforward maps, and exact rank certificates.
+1. Completed: reproduce sextic 1,001 + 720 + 30 coverage using explicit complete-intersection equations, exact residue determinants, and symmetry projectors. See research/geometric-certificates.md. A list of 1,751 individually independent surfaces is optional; the orbit span already certifies rank.
 2. Generate Galois and permutation orbit representatives of residual characters, keeping ordered character multiplicities separate from orbit counts.
 3. Develop a detector coverage matrix: candidate algebraic surfaces vs. residual eigenspaces, and certify rank over a specified exact field. Compare with known bases first. A nonzero pairing is a detector; full rank is the spanning certificate.
-4. Extend to degrees 8, 9, 10, 12, 18, and 20, using published Shioda inductive constructions and other known results. Do not infer an open case merely from a nonzero linear deficit.
+4. Partial completion: a uniform mixed-degree extension covers 360(d−4)+30 nonlinear dimensions for every multiple of six, with exact data for 6–48. Next, incorporate Shioda inductive correspondences and other constructions for degrees 8, 9, 10, 12, 18, and 20. Do not infer an open case merely from a nonzero deficit of these families. See research/correspondence-obligation.md.
 
 ## P1 — singular support
 
